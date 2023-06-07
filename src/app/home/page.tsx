@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React from 'react';
 
-export interface IIndexProps {}
-
-export default function Index(props: IIndexProps) {
-  return <div>sample</div>;
+function page() {
+  return <div>page</div>;
 }
+
+export default page;

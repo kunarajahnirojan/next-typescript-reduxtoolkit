@@ -7,3 +7,5 @@ export function formatDate(date: any) {
 export function formatTime(time: any) {
   return format(time, 'HH:MM:SS');
 }
+
+
